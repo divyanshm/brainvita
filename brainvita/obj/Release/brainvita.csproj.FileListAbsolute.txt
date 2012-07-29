@@ -1,0 +1,15 @@
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Release\brainvita.dll
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Release\brainvita.pdb
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Release\AppManifest.xaml
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Release\brainvita.xap
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\ResolveAssemblyReference.cache
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\App.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\MainPage.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\Page1.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\Page2.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\Page3.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\Page4.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\brainvita.g.resources
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\brainvita.dll
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\brainvita.pdb
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Release\XapCacheFile.xml

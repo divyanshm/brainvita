@@ -1,0 +1,383 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="brainvita.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" d:DesignHeight="768" d:DesignWidth="480">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="image\wood2.jpg" Stretch="UniformToFill">
+            </ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,216,0,0" Name="white04" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50" Tap="white04_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,216,0,0" Name="white02" Tap="white02_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,216,0,0" Name="white03" Tap="white03_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,272,0,0" Name="white14" Tap="white14_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,272,0,0" Name="white12" Tap="white12_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,272,0,0" Name="white13" Tap="white13_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="97,384,0,0" Name="white31" Tap="white31_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="43,384,0,0" Name="white30" Tap="white30_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="97,443,0,0" Name="white41" Tap="white41_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="43,443,0,0" Name="white40" Tap="white40_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,328,0,0" Name="white24" Tap="white24_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,328,0,0" Name="white22" Tap="white22_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,328,0,0" Name="white23" Tap="white23_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="320,328,0,0" Name="white25" Tap="white25_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="374,328,0,0" Name="white26" Tap="white26_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="97,328,0,0" Name="white21" Tap="white21_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="43,328,0,0" Name="white20" Tap="white20_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,384,0,0" Name="white34" Tap="white34_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,384,0,0" Name="white32" Tap="white32_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,384,0,0" Name="white33" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="white33_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,442,0,0" Name="white44" Tap="white44_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,442,0,0" Name="white42" Tap="white42_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,442,0,0" Name="white43" Tap="white43_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="320,384,0,0" Name="white35" Tap="white35_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="374,384,0,0" Name="white36" Tap="white36_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="320,442,0,0" Name="white45" Tap="white45_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="376,442,0,0" Name="white46" Tap="white46_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,498,0,0" Name="white54" Tap="white54_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,498,0,0" Name="white52" Tap="white52_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,498,0,0" Name="white53" Tap="white53_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,554,0,0" Name="white64" Tap="white64_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,554,0,0" Name="white62" Tap="white62_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,554,0,0" Name="white63" Tap="white63_Tap" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,216,0,0" Name="red04" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red04_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="153,216,0,0" Name="red02" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Tap="red02_Tap" HorizontalAlignment="Left" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Right" Margin="0,216,197,0" Name="red03" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red03_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,272,0,0" Name="red14" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red14_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,272,0,0" Name="red12" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red12_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,272,0,0" Name="red13" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red13_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="0,384,309,0" Name="red31" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="50" Tap="red31_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="43,384,0,0" Name="red30" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Tap="red30_Tap" HorizontalAlignment="Left" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="97,0,0,276" Name="red41" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Bottom" Width="50" Tap="red41_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="43,0,0,276" Name="red40" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Bottom" Width="50" Tap="red40_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,328,0,0" Name="red24" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red24_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,0,0,390" Name="red22" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Bottom" Width="50" Tap="red22_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,328,0,0" Name="red23" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red23_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="320,328,0,0" Name="red25" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red25_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Right" Margin="0,328,32,0" Name="red26" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red26_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="97,328,0,0" Name="red21" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" Tap="red21_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="43,328,0,0" Name="red20" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red20_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="265,384,0,0" Name="red34" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red34_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,384,0,0" Name="red32" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red32_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="265,442,141,0" Name="red44" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Tap="red44_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="153,443,253,0" Name="red42" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Tap="red42_Tap" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,443,0,0" Name="red43" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red43_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="320,384,0,0" Name="red35" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red35_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="374,384,0,0" Name="red36" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red36_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="320,442,86,0" Name="red45" Stroke="#FF00F100" StrokeThickness="0" VerticalAlignment="Top" Tap="red45_Tap" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="376,442,0,0" Name="red46" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red46_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Right" Margin="0,498,141,0" Name="red54" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red54_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,498,0,0" Name="red52" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red52_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,0,0,220" Name="red53" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Bottom" Width="50" Tap="red53_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Right" Margin="0,554,141,0" Name="red64" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Width="50" Tap="red64_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" Margin="153,0,0,164" Name="red62" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Bottom" Tap="red62_Tap" HorizontalAlignment="Left" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="209,0,0,164" Name="red63" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Bottom" Width="50" Tap="red63_Tap">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Fill="Red" Height="40" HorizontalAlignment="Left" Margin="69,471,0,0" Name="ellipse63" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="40" Visibility="Collapsed" />
+            <Ellipse Height="50" Margin="209,384,197,0" Name="red33" Stroke="Lime" StrokeThickness="0" VerticalAlignment="Top" Tap="red33_Tap" Visibility="Collapsed" >
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Button Content="Reset" Height="66" Name="button2" Width="126" FontSize="18" Click="button2_Click" Margin="265,661,65,41" Foreground="White" BorderThickness="2" />
+            <Button Content="Undo" Height="66" Name="button1" Width="126" HorizontalAlignment="Left" FontSize="18" Click="button1_Click_1" Margin="77,661,0,41" Foreground="White" BorderThickness="2" />
+            <Image Height="136" HorizontalAlignment="Left" Margin="68,31,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="318" Source="/brainvita;component/image/gamelogo.png" />
+
+            <MediaElement x:Name="SoundClip" Source="image\click.wav" Volume="1" AutoPlay="False"></MediaElement>
+            <Button Content="Home" Height="68" HorizontalAlignment="Left" Margin="342,6,0,0" Name="button3" VerticalAlignment="Top" Width="108" BorderThickness="0" FontSize="20" Click="button3_Click" />
+        </Grid>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

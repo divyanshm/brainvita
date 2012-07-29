@@ -1,0 +1,60 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="brainvita.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush ImageSource="image\wood2.jpg" Stretch="UniformToFill">
+            </ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,43,0,0" Name="ellipse1" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/red.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Height="50" HorizontalAlignment="Left" Margin="153,98,0,0" Name="ellipse2" Stroke="Black" StrokeThickness="1" VerticalAlignment="Top" Width="50">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/brainvita;component/image/hole.png" />
+                </Ellipse.Fill>
+            </Ellipse>
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="239,52,0,0" Name="textBlock1" Text="Ball" VerticalAlignment="Top" />
+            <TextBlock Height="30" HorizontalAlignment="Left" Margin="239,106,0,0" Name="textBlock2" Text="Hole" VerticalAlignment="Top" />
+            <Button Content="&lt;&lt; Back" Height="72" HorizontalAlignment="Left" Margin="139,664,0,0" Name="button1" VerticalAlignment="Top" Width="160" Click="button1_Click" />
+            <TextBlock Height="171" HorizontalAlignment="Left" Margin="52,158,0,0" Name="textBlock3" Text="Balls are allowed to jump over adjacent (vertically or horizontally) balls. The ball that has been jumped over is removed. To move a ball, select it first by clicking on it once. Then you click at the hole to which you want the peg moved." VerticalAlignment="Top" Width="368" TextWrapping="Wrap" />
+            <TextBlock Height="329" HorizontalAlignment="Left" Margin="52,335,0,0" Name="textBlock4" Text="The goal of a regular game is to reverse a starting configuration: Positions with balls must become empty while empty positions should be filled with balls by the end of the game. At the beginning, you are presented with the standard configuration where just one ball - the central one - is missing. Therefore, the goal for this configuration is to end up with a single ball in the middle of the board." VerticalAlignment="Top" Width="368" TextWrapping="Wrap" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

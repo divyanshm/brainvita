@@ -1,0 +1,41 @@
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Debug\brainvita.dll
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Debug\brainvita.pdb
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Debug\AppManifest.xaml
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\Bin\Debug\brainvita.xap
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\ResolveAssemblyReference.cache
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\App.g.i.cs
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\MainPage.g.i.cs
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\brainvita.g.resources
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\brainvita.dll
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\brainvita.pdb
+c:\users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\XapCacheFile.xml
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\Bin\Debug\ApplicationIcon.png
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\Bin\Debug\Background.png
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\Bin\Debug\brainvita.dll
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\Bin\Debug\brainvita.pdb
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\ResolveAssemblyReference.cache
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\App.g.i.cs
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\MainPage.g.i.cs
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\brainvita.g.resources
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\brainvita.dll
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\brainvita.pdb
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\Bin\Debug\AppManifest.xaml
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\Bin\Debug\brainvita.xap
+F:\Arnav\Documents\Visual Studio 2010\Projects\New folder\brainvita\brainvita\obj\Debug\XapCacheFile.xml
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\Bin\Debug\ApplicationIcon.png
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\Bin\Debug\Background.png
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\Bin\Debug\brainvita.dll
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\Bin\Debug\brainvita.pdb
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\Bin\Debug\AppManifest.xaml
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\Bin\Debug\brainvita.xap
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\App.g.i.cs
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\MainPage.g.i.cs
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\brainvita.g.resources
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\brainvita.dll
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\brainvita.pdb
+C:\Users\Rahela\Documents\Visual Studio 2010\Projects\brainvita\brainvita\obj\Debug\XapCacheFile.xml
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\Page1.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\Page2.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\Page3.g.i.cs
+C:\Users\divyanshm\documents\visual studio 2010\Projects\brainvita\brainvita\obj\Debug\Page4.g.i.cs
